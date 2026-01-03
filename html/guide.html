@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>白光選品｜購買須知</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="navbar">
+      <a class="brand" href="index.html" aria-label="回到首頁">
+        <div class="logo" aria-hidden="true"></div>
+        <div>白光選品</div>
+      </a>
+      <nav class="navlinks" aria-label="主選單">
+        <a href="index.html#categories">商品分類</a>
+        <a href="guide.html">購買須知</a>
+        <a href="about.html">關於我們</a>
+        <a href="cart.html" aria-label="購物車">
+          購物車<span class="badge" data-cart-badge style="display:none">0</span>
+        </a>
+        <a href="login.html" data-login-link>登入</a>
+        <a href="account.html" data-account-link style="display:none">我的帳號</a>
+        <button class="btn ghost" type="button" data-logout-btn style="display:none">登出</button>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <section class="panel">
+      <h2 style="margin:0 0 8px">購買須知</h2>
+      <div class="notice">
+        <b>本頁為課程作業展示。</b>若為實務服務，建議提供更完整的聯繫與確認機制（例如：客服聯繫、訂單狀態、配送方式等）。
+      </div>
+      <div class="muted" style="line-height:1.9; margin-top:12px">
+        <b>1. 客製化內容</b><br/>
+        本網站僅在「直接加入購物車」時彈出填寫（敬輓詞/署名、特殊需求），用於模擬實務溝通情境。<br/><br/>
+        <b>2. 配送安排</b><br/>
+        本版本提供日期欄位作為示意；未來可擴充為自取、指定地址或殯儀館配送等。<br/><br/>
+        <b>3. 登入與歷史訂單</b><br/>
+        登入後可在「我的帳號」查看歷史訂單與基本資料；本作業以 LocalStorage 模擬保存。<br/><br/>
+        <b>4. 付款方式</b><br/>
+        付款方式目前為介面展示；未來可串接金流服務。
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div>>© 白光選品｜用一份心意，好好說再見</div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
